@@ -3,7 +3,7 @@
     {
       "name": "make",
       "setup": "chmod u+rx newtest.?",
-      "run": "make",
+      "run": "make clean filesize",
       "input": "",
       "output": "",
       "comparison": "included",
