@@ -1,5 +1,6 @@
 //  Author: Kassady Herriott
-//  Assignment: Homework 1 Operating Systems
+//  Assignment: Homework 1
+//  Class: CS4420 - Operating Systems
 //  Professor: Ostermann
 //  Date: 13 January 2022
 
