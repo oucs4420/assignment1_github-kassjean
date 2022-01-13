@@ -89,13 +89,11 @@ int main( int argc, char* argv[] )
     ifstream testFile;
     string fileName = "";
     int all_lines = 0;
-    bool empty;
     string line = "";
 
     cout << "program: " << argv[0] << endl;
 
     for (int arg = 1; arg < argc; ++arg){
-        empty = true;
         fileName = argv[arg];
         testFile.open(fileName);
         //if the file fails to open it outputs -1 
