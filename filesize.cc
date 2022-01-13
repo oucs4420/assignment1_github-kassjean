@@ -37,7 +37,7 @@ int main( int argc, char* argv[] )
         } 
         else{
             //if file opens successfully do this
-            while(!testFile.eof()){
+            while(testFile.good()){
                 getline(testFile, line);
                 //counts total number of lines
                 all_lines++;
