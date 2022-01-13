@@ -47,13 +47,13 @@ int main( int argc, char* argv[] )
                     empty = false;
                 }
             }
-            // if (empty){
-            //     //prints different counts based on empty lines or not
-            //     cout << " " << fileName + ": " + to_string(all_lines) << endl;
-            // }
-            // else{
+            if (empty){
+                //prints different counts based on empty lines or not
+                cout << " " << fileName + ": " + to_string(all_lines) << endl;
+            }
+            else{
                 cout << " " << fileName + ": " + to_string(count) << endl;
-            // }
+            }
             //resets variables 
             count = 0;
             all_lines = 0;
