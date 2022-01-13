@@ -42,18 +42,18 @@ int main( int argc, char* argv[] )
                 //counts total number of lines
                 all_lines++;
                 //counts number of lines that arent new lines 
-                if(line != "" and line != "\n"){
+                if(line != ""){
                     count++;
                     empty = false;
                 }
             }
-            if (empty){
+            // if (empty){
                 //prints different counts based on empty lines or not
                 cout << " " << fileName + ": " + to_string(all_lines) << endl;
-            }
-            else{
-                cout << " " << fileName + ": " + to_string(count) << endl;
-            }
+            // }
+            // else{
+            //     cout << " " << fileName + ": " + to_string(count) << endl;
+            // }
             //resets variables 
             count = 0;
             all_lines = 0;
