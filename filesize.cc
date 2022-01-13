@@ -27,7 +27,7 @@ int main( int argc, char* argv[] )
 
     cout << "program: " << argv[0] << endl;
 
-    for (int arg = 1; arg < argc; ++arg){ 
+    for (int arg = 1; arg < argc; ++arg){
         empty = true;
         fileName = argv[arg];
         testFile.open(fileName);
@@ -42,7 +42,7 @@ int main( int argc, char* argv[] )
                 //counts total number of lines
                 all_lines++;
                 //counts number of lines that arent new lines 
-                if(line != ""){
+                if(line != "\n"){
                     count++;
                     empty = false;
                 }
