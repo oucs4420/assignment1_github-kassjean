@@ -40,7 +40,7 @@ int main( int argc, char* argv[] )
             while(!testFile.eof()){
                 getline(testFile, line);
                 //counts total number of lines
-                count++;
+                all_lines++;
                 //counts number of lines that arent new lines 
                 if(line != ""){
                     count++;
