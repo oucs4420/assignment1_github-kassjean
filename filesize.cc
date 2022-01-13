@@ -42,7 +42,7 @@ int main( int argc, char* argv[] )
                 //counts total number of lines
                 all_lines++;
                 //counts number of lines that arent new lines 
-                if(line != "\n"){
+                if(line != "" and line != "\n"){
                     count++;
                     empty = false;
                 }
